@@ -1,20 +1,8 @@
 # FIT UP — Suíte de Testes de Software
-> **Disciplina:** Teste de Software (N1 – AT1)  
-> **Professor:** Samuel Novais Moura Junior  
-> **Instituição:** Universidade Católica de Brasília (UCB) — 2026  
 
 ---
 
-## 👥 Equipe do Projeto
-* Gustavo Júnio
-* Isaac Alonço
-* Raphael Gondim
-* Hugo Oliveira
-* Paulo Vitor
-
----
-
-## 🎯 Visão Geral da Suíte de Testes
+## Visão Geral da Suíte de Testes
 Este repositório contém exclusivamente os artefatos de **Teste de Software** do sistema **FIT UP** (Gestão de Academias), organizados de forma modular e em conformidade estrita com o Barema de Avaliação da disciplina:
 
 | Nível de Teste | Conceito (V&V) | Tipo de Teste | Ferramenta | Quantidade | Foco da Validação |
@@ -27,10 +15,10 @@ Este repositório contém exclusivamente os artefatos de **Teste de Software** d
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
-├── Apresentacao_FIT_UP_Minimalista.pptx   # Slides oficiais da apresentação (Dark Mode, 16:9)
+
 ├── backend/                              # Código Java essencial e pom.xml com JUnit e JaCoCo
 │   ├── pom.xml                           # Configuração Maven com JUnit 5, AssertJ e JaCoCo
 │   └── src/                              # Classes de domínio e validação testadas
@@ -51,7 +39,7 @@ Este repositório contém exclusivamente os artefatos de **Teste de Software** d
 
 ---
 
-## 🚀 Como Executar os Testes
+## Como Executar os Testes
 
 ### 1. Testes Unitários & Cobertura (JUnit 5 + AssertJ + JaCoCo)
 ```bash
@@ -76,6 +64,6 @@ Abra o JMeter, carregue `tests/jmeter/LoadTest_FITUP.jmx` e clique no botão **S
 
 ---
 
-## 🌐 Ambientes em Produção
+## Ambientes em Produção
 * **Frontend Web:** Disponível na Vercel (SPA integrada)
 * **Backend REST:** `https://academy-project-fit-up-production.up.railway.app` (Railway Docker Container)
